@@ -22,3 +22,5 @@ jobs:
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           environment: "production"
+        env:
+          USER: root
