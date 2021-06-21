@@ -1,7 +1,7 @@
 name = "sidartha-blog"
 type = 'webpack'
 account_id = 'f1d28e3461a464048610144e03a0e800'
-route = ''
+route = 'sidartha.xyz/*'
 zone_id = 'f1b5ee3329e3fea3ec5f1599a3fcef06'
 usage_model = ''
 workers_dev = true
@@ -10,3 +10,6 @@ target_type = "webpack"
 [site]
 bucket = "./public"
 entry-point = "workers-site"
+
+[env.production]
+workers_dev = true
