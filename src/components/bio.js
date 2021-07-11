@@ -44,7 +44,7 @@ const Bio = () => {
       />
       {author?.name && (
         <p>
-          My personal blog. 
+          <span role="img" aria-label="Wave">👋</span> Hello! I am a <strong>software engineer</strong> from Petaling Jaya, Malaysia and I graduated from <strong>Georgia Tech <span role="img" aria-label="Yellow Jacket">🐝</span></strong> in May 2021. I plan on sharing my thoughts on computers, photography, and more here. 
           {/* {` `}
           <a href={`https://twitter.com/${social?.twitter || ``}`}>
             You should follow them on Twitter
