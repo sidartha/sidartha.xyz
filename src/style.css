@@ -85,6 +85,7 @@ body {
 
 footer {
   padding: var(--spacing-6) var(--spacing-0);
+  font-size: var(--fontSize-0);
 }
 
 hr {
@@ -255,7 +256,7 @@ a:focus {
 }
 
 .main-heading {
-  font-size: var(--fontSize-7);
+  font-size: var(--fontSize-5);
   margin: 0;
 }
 
@@ -271,12 +272,12 @@ a:focus {
 .post-list-item h2 {
   font-size: var(--fontSize-4);
   color: var(--color-primary);
-  margin-bottom: var(--spacing-2);
+  margin-bottom: var(--spacing-0);
   margin-top: var(--spacing-0);
 }
 
 .post-list-item header {
-  margin-bottom: var(--spacing-4);
+  margin-bottom: var(--spacing-1);
 }
 
 .header-link-home {
@@ -298,8 +299,12 @@ a:focus {
 .bio-avatar {
   margin-right: var(--spacing-4);
   margin-bottom: var(--spacing-0);
-  min-width: 50px;
-  border-radius: 100%;
+  min-width: 80px;
+  border-radius: 50%;
+}
+
+.bio-avatar img {
+  border-radius: 50%; /* for Safari */
 }
 
 .blog-post header h1 {
