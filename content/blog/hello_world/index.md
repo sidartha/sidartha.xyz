@@ -1,7 +1,7 @@
 ---
- title: Hello World
+ title: Hello World!
  date: "2021-08-22T22:12:03.284Z"
- description: "Hello World"
+ description: "An introduction to me and my blog"
 ---
 
 Hello! My name is Sidartha and in May, I graduated from Georgia Institute of Technology with a Bachelor's degree in Computer Science.
