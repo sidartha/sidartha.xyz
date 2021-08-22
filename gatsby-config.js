@@ -5,7 +5,7 @@ module.exports = {
       name: `Sidartha Rakuram`,
       summary: `who lives and works in San Francisco building useful things.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Personal blog by Sidartha Rakuram. I plan on sharing my thoughts on computers, photography, and more here.`,
     siteUrl: `https://sidartha.xyz/`,
     social: {
       twitter: `none`,

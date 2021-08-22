@@ -1,12 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "sidartha.xyz",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Sidartha's blog!",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+  "author": "Sidartha Rakuram <sr@sidartha.xyz>",
   "dependencies": {
     "gatsby": "^3.6.2",
     "gatsby-plugin-feed": "^3.6.0",
