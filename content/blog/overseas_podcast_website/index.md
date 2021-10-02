@@ -192,6 +192,8 @@ export const query = graphql`
   }
 ```
 
+This query [was added to the homepage component](https://www.gatsbyjs.com/docs/how-to/querying-data/page-query/) and Gatsby ensures that the podcast data is passed to the component's props. 
+
 ## The Result
 
 The Overseas website has been deployed to https://overseaspodcast.com (using Vercel) and I have setup a cron job using GitHub Actions to trigger a new build once a day (leveraging [Vercel Deploy Hooks](https://vercel.com/docs/git/deploy-hooks)). This will refresh the podcasts list on the site once daily.
