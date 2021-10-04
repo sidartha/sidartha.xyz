@@ -6,14 +6,14 @@
 
 Last month, while I was speaking with my friend Jackson, he shared that he was considering setting up a website for [Overseas](https://open.spotify.com/show/5FhNDe0Tibe1iJOFc8KvFO). Overseas is a podcast by Dr. Tram Jones and Hannah Jones, an American couple living abroad in Port-au-Prince, Haiti. On the podcast, we hear about Haiti, its history and the wonderful people there.
 
-I offered to help Jackson with the developing this site and we immediately got started with planning the site. 
+I offered to help Jackson with developing this site and we immediately got started with planning the site. 
 
 When Jackson and I discussed creating this website, we identified the following goals that the website should achieve:
 
-1. Serve as a way to connect future listeners to the podcasts' pages on Apple Podcasts and Spotify
-1. Link to Light from Light for visitors to see the work that the organization
-1. On a low budget (at most USD 15 a year)
+1. Serve as a way to connect future listeners to the podcast's pages on Apple Podcasts and Spotify
+1. Link to [Light from Light](https://www.lightfromlight.me) for visitors to see the work of the organization
 1. There should be very minimal maintenance of the website.
+1. Achieve the goals above on a low budget (at most USD 15 a year)
 
 Initially, we looked at using a hosted solution such as [Squarespace](https://www.squarespace.com/website-design) or [PodcastPage](https://podcastpage.io). We quickly realized that these solutions would not meet our budget of $15 a year, and a static-site generator (like Gatsby, Next or Jekyll) would be a better fit.
 
@@ -161,7 +161,6 @@ episodes.map(episode => {
   }
   const episodeNode = {
     ...episodeData,
-    // Required fields
     id: episode.uri,
     parent: `__SOURCE__`,
     internal: {
