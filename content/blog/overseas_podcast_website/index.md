@@ -1,6 +1,6 @@
 ---
  title: Building a Podcast Website Using the Spotify API
- date: "2021-10-02T22:00:00.000Z"
+ date: "2021-10-05T22:00:00.000Z"
  description: "Leveraging the Spotify API to build a website that dynamically updates the podcast's episode list."
 ---
 
