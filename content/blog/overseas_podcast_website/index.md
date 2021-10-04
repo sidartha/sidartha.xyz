@@ -1,7 +1,7 @@
 ---
  title: Building a Podcast Website Using the Spotify API
  date: "2021-10-02T22:00:00.000Z"
- description: "Leveraging the Spotify API to build a website that dynamically updates the podcasts' episode list."
+ description: "Leveraging the Spotify API to build a website that dynamically updates the podcast's episode list."
 ---
 
 Last month, while I was speaking with my friend Jackson, he shared that he was considering setting up a website for [Overseas](https://open.spotify.com/show/5FhNDe0Tibe1iJOFc8KvFO). Overseas is a podcast by Dr. Tram Jones and Hannah Jones, an American couple living abroad in Port-au-Prince, Haiti. On the podcast, we hear about Haiti, its history and the wonderful people there.
