@@ -106,6 +106,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
+            title: "Sidartha Rakuram's Blog",
           },
         ],
       },
